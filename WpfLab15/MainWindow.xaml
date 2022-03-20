@@ -1,0 +1,152 @@
+﻿<Window x:Class="WpfLab15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLab15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="20">
+                    Собаки-гиганты
+                </Paragraph>
+                <Paragraph>
+                    В данной статье описаны крупные собаки, у которых:
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            вес превышает 50 кг
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            рост (высота в холке) от 60 см
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="1.5*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="4*"/>
+                        <TableColumn Width="3*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Порода собаки
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Вес
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Рост
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>
+                                    Описание породы
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Ньюфаундленд
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    50-68 кг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    62-68 см
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>
+                                    Ньюфаундленды – крупные собаки с массивным, но пропорциональным телосложением. Они медлительны, их движения плавны. У них большая голова, недлинная и широкая морда с развитыми брылями, некрупные глаза, широкий лоб и небольшие, закругленные уши. Мощная шея относительно длинная, имеет развитую мускулатуру. Грудь широкая, грудная клетка глубокая, овальная. У ньюфаундлендов прямая крепкая спина, широкий, опущенный круп, мощные конечности с широкой костью и большие лапы с крепкими пальцами, между фалангами которых имеются перепонки. Хвост длинный, широкий у основания, свисает до скакательных суставов и загибается.
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/1.jpg" Width="250" Height="250"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Кавказская овчарка
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    45-70 кг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    64-68 см
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>
+                                    Кавка́зская овча́рка — порода собак, родиной которой является Кавказ. Является одной из древнейших пород, ведёт род от крупных молоссоидов I века до нашей эры.  Шерсть у кавказских овчарок достаточно густая, они легко переносят сильные морозы и выглядят ещё более массивными за счет густого подшёрстка, особенно в зимний период времени. По длине шерсти выделяют три типа кавказских овчарок — короткошёрстные, промежуточные и длинношёрстные. Первый тип является наименее распространённым, самый популярный — третий. Окрас волче-серый, бурый, белый, палевый, с маской и без неё, рыжий и пёстрый.</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/2.jpg" Width="250" Height="250"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сенбернар
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    65-80 кг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    65-75 см
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>
+                                    Порода носит название монастыря Сен-Бернар, расположенного в Альпах. Именно монахи этого монастыря внесли наибольший вклад в развитие породы. Живя в горных районах, монахи использовали сенбернаров в спасательных целях – для откапывания людей, настигнутых снежной лавиной. Сложно сказать, сколько сотен, а то и тысяч людей остались в долгу перед этой собакой за свою спасенную жизнь. В наши дни эти собаки также используются в поиске и спасении людей, погребенных тоннами снега лавинных сходов. Однако сегодня чаще сенбернары выполняют роль прекрасных домашних питомцев. Сенбернар является не только отличным спасателем, но и сторожем и охранником.
+                                </Paragraph>
+                            </TableCell>
+
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/3.jpg" Width="250" Height="250"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
